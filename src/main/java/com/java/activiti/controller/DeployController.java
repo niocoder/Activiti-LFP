@@ -44,7 +44,6 @@ public class DeployController {
 		if(s_name==null){
 			s_name="";
 		}
-		System.out.println("hello");
 		PageInfo pageInfo=new PageInfo();
 		//填充每页显示数量
 		Integer sizePage=Integer.parseInt(rows);
